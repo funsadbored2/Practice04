@@ -10,6 +10,8 @@ public class SoundApp {
     }
 
     public static void printSound( Soundable soundable ) {
+    	
+    	System.out.println(soundable.sound());
         //구현
     }
     

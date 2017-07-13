@@ -2,15 +2,14 @@ package com.javaex.problem05;
 
 public class Cat implements Soundable {
 	
-	public void cat() {
-		sound();
+
+	public String sound() {
+		
+		String sound = "야옹";
+		
+		return sound;
+		
 	}
-	
-	 public String sound(String s) {
-		 
-		 
-		 return s;
-	 }
 
 
 }
